@@ -1,0 +1,122 @@
+<html>
+
+<head>
+    <style>
+        ul,
+        #myUL {
+            list-style-type: none;
+        }
+
+        #myUL {
+            margin: 0;
+            padding: 0;
+        }
+
+        .caret {
+            cursor: pointer;
+            -webkit-user-select: none;
+            /* Safari 3.1+ */
+            -moz-user-select: none;
+            /* Firefox 2+ */
+            -ms-user-select: none;
+            /* IE 10+ */
+            user-select: none;
+            font-weight: bolder;
+            font-size: xx-large;
+            border-bottom: 7px groove gold;
+            color: rgb(9, 76, 3);
+            border-radius: 5%;
+        }
+
+        .caret::before {
+            content: "\25B6";
+            color: rgba(13, 246, 5, 0.991);
+            display: inline-block;
+            margin-right: 6px;
+            color: rgb(5, 71, 13);
+            
+        }
+
+
+        .caret-down::before {
+            -ms-transform: rotate(90deg);
+            /* IE 9 */
+            -webkit-transform: rotate(90deg);
+            /* Safari */
+            transform: rotate(90deg);
+        }
+
+        .nested {
+            display: none;
+        }
+
+        .active {
+            display: block;
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <a href="familytree.php">back to home</a>
+
+    <body>
+        <div>
+            <ul id="myUL">
+                <li><span class="caret"> marutha gounder-ettai</span>
+
+                    <ul class="nested">
+                        <li><span class="caret">palani gounder </span>
+
+                            <ul class="nested">
+                                <li><span class="caret"> pushpalatha</span> </li>
+                                <li><span class="caret"> murugeson</span> </li>
+                            </ul>
+                        </li>
+                        <li><span class="caret">maarai</span>
+
+
+                        </li>
+                        <li><span class="caret">nallamaale</span>
+
+
+                        </li>
+                        <li><span class="caret">nachamal</span>
+
+
+                        </li>
+                        <li><span class="caret">perianna gounder</span>
+
+
+                        </li>
+                        <li><span class="caret">karupaiaa</span>
+
+
+                        </li>
+                       
+
+                    </ul>
+                </li>
+
+            </ul>
+          
+
+         
+        </div>
+        </div>
+        </div>
+        <script>
+            var toggler = document.getElementsByClassName("caret");
+            var i;
+
+            for (i = 0; i < toggler.length; i++) {
+                toggler[i].addEventListener("click", function () {
+                    this.parentElement.querySelector(".nested").classList.toggle("active");
+                    this.classList.toggle("caret-down");
+                });
+            }
+        </script>
+    </body>
+</body>
+
+</html>
