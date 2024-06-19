@@ -1,11 +1,5 @@
 <?php
-$userList = array(
-  "thanish" => array("password" => "pokefire", "user" => "thanish"),
-  "selavarani" => array("password" => "thanish", "user" => "selavarani"),
-  "pusphalatha" => array("password" => "saravanan", "user" => "pusphalatha"),
-  "sampath" => array("password" => "sampath", "user" => "sampath"),
-  "mohitha" => array("password" => "barbie", "user" => "mohitha")
-);
+
 $user = '';
 $password = "";
 $error = "";

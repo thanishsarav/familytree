@@ -142,11 +142,11 @@ function getRoot($id)
   <div class="content-header">
     <div class="container-fluid">
       <div class="row ">
-        <div class="col-sm-12">
-          <h1 class="m-0">Starter Page</h1>
-        </div><!-- /.col -->
-
-        <div class="recursive">
+        <div class="col-sm-12 border " style="font-family:cursive">
+          <h1 class="m-0">Dashboard</h1>
+        </div><!-- /.col --><br>
+<br>
+        <div class="recursive col-sm-12">
           <?php
           displayFamily($ft, true);
 

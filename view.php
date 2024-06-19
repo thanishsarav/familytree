@@ -118,7 +118,13 @@ if (isset($_POST['submit'])) {
                         </div>
                         <!-- /.card-body -->
                     </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title"> <a href="familymembers.php" class="btn btn-primary">Go back</a></h3>
+                        </div>
 
+                        <!-- /.card-body -->
+                    </div>
                     <!-- /.card -->
                 </div>
 

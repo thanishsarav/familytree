@@ -24,7 +24,7 @@ include 'db.php';
     }
     .recursive{
       border-bottom: 2pt ridge gold;
-      border-top: 2pt ridge gold;
+
     }
 
     .caret {
@@ -80,16 +80,16 @@ include 'db.php';
       <!-- Left navbar links -->
       <ul class="navbar-nav">
         <li class="nav-item d-none d-sm-inline-block">
-          <a href="/ftree/starter.php" class="nav-link">Home</a>
+          <a href="/familytree/starter.php" class="nav-link">Home</a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
-          <a href="/ftree/users/users.php" class="nav-link">Users</a>
+          <a href="/familytree/users/users.php" class="nav-link">Users</a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
-          <a href="familymembers.php" class="nav-link">family members</a>
+          <a href="/familytree/familymembers.php" class="nav-link">family members</a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
-          <a href="familytree.php" class="nav-link">family tree</a>
+          <a href="/familytree/familytree.php" class="nav-link">family tree</a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
           <a href="#" class="nav-link">Contact</a>

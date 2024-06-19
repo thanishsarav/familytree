@@ -20,37 +20,32 @@ $count = mysqli_num_rows($result);
   <div class="content-header">
     <div class="container-fluid">
       <div class="row mb-2">
-        <div class="col-sm-6 container-fluid">
-          <h1 class="m-0 p-3 ml-1 ">Starter Page
+        <div class="col-sm-12 container-fluid">
+          <h1 class="m-0 p-3 ml-1 ">Members Page
             <a href="addfamilymembers.php" class="btn btn-primary">Add</a>
           </h1>
         </div><!-- /.col -->
-        <div class="col-sm-6">
-          <ol class="breadcrumb float-sm-right">
-            <li class="breadcrumb-item"><a href="#">Home</a></li>
-            <li class="breadcrumb-item active">Starter Page</li>
-          </ol>
         </div>
 
         <div class="row">
           <div class="col-12">
-            <div class="card">
+            <div class="card ">
               <!-- /.card-header -->
-              <div class="container">
+              <div class="container col-sm-12">
                 <table class="table table-hover text-nowrap">
                   <caption>Total number of records is <?php echo $count; ?></caption>
                   <thead>
                     <tr>
-                      <th>s.no</th>
-                      <th>name</th>
-                      <th>phone number</th>
-                      <th>location</th>
-                      <th>kulam</th>
-                      <th>kovil</th>
-                      <th>gender</th>
-                      <th>View</th>
-                      <th>Edit</th>
-                      <th>Delete</th>
+                      <th>S.NO</th>
+                      <th>NAME</th>
+                      <th>PHONE NUMBER</th>
+                      <th>LOCATION</th>
+                      <th>KULAM</th>
+                      <th>KOVIL</th>
+                      <th>GENDER</th>
+                      <th>VIEW</th>
+                      <th>EDIT</th>
+                      <th>DELETE</th>
                     </tr>
                   </thead>
 
@@ -101,7 +96,7 @@ $count = mysqli_num_rows($result);
             <!-- /.card -->
           </div>
         </div>
-      </div>
+    
     </div>
   </div><!-- /.row -->
 </div><!-- /.container-fluid -->
